@@ -1,0 +1,23 @@
+-- CREATE TABLE public.department
+-- (
+--     id bigint NOT NULL,
+--     deptname varchar(50),
+--     CONSTRAINT dept_primery_key PRIMARY KEY (id)
+-- );
+--
+-- CREATE TABLE public.employee_dtls
+-- (
+--     id bigint NOT NULL,
+--     name varchar(30),
+--     dept_id bigint NOT NULL,
+--     CONSTRAINT employee_primery_key PRIMARY KEY (id),
+--     CONSTRAINT dept_id FOREIGN KEY (dept_id) REFERENCES public.department (id)
+-- );
+--
+-- CREATE SEQUENCE public.employee_sequence
+--     INCREMENT 500
+--     MINVALUE 1;
+--
+-- CREATE SEQUENCE public.dept_sequence
+--     INCREMENT 500
+--     MINVALUE 1
